@@ -36,7 +36,7 @@ set_exception_handler (
 define('DS', DIRECTORY_SEPARATOR);
 define ('PS', PATH_SEPARATOR);
 define ('ROOT_PATH',dirname(dirname(__FILE__)));
-define ('LIBRARY_PATH', ROOT_PATH . DS . 'libray');
+define ('LIBRARY_PATH', ROOT_PATH . DS . 'library');
 define ('CONFIG_PATH', ROOT_PATH . DS . 'application' . DS .'configs');
 define ('APPLICATION_PATH', ROOT_PATH . DS . 'application');
 
